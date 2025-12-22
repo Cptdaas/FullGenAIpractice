@@ -1,0 +1,20 @@
+{
+    "name": null,
+    "input_variables": [
+        "age",
+        "fitness_goals",
+        "height",
+        "medical_conditions",
+        "name",
+        "weight"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "please use. the below user atributes to create a personalized medical workout plan:\n    Name: {name}\n    Age: {age}\n    Weight: {weight}\n    Height: {height}\n    Medical Conditions: {medical_conditions}\n    Fitness Goals: {fitness_goals}  \n    The workout plan should include:\n    1. Warm-up exercises\n    2. Main workout routine\n    3. Cool-down exercises      \n    Ensure the plan is safe and effective considering the user's medical conditions and fitness goals.\n    ",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
