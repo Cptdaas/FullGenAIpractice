@@ -1,6 +1,15 @@
+# langchain and integrations: 
+langchain-community
+
 # langchain core
 langchain
 langchain-core
+
+#lagchain semantic kernels i used this lib will be the reason for some issues
+langchain-experimental
+
+#langchain for text splitting we have to add this
+langchain-text-splitters
 
 #openai integration 
 langchain-openai
@@ -18,6 +27,8 @@ langchain-huggingface
 transformers
 huggingface-hub
 torch
+#senetence transformer for embeddings
+sentence-transformers
 
 #Environment variables
 python-dotenv
@@ -32,3 +43,10 @@ pydantic
 
 #graph representation of chains
 grandalf
+
+# Beautifulsoup for web scraping
+bs4
+requests
+
+#Pypdf lib
+pypdf
