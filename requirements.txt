@@ -11,17 +11,6 @@ langchain-experimental
 #langchain for text splitting we have to add this
 langchain-text-splitters
 
-#openai integration 
-langchain-openai
-openai
-
-# Anthropic integration
-langchain-anthropic
-
-#Google Gemini(PalM) Integration 
-langchain-google-genai 
-google-generativeai
-
 #Hugging facehub integration
 langchain-huggingface
 transformers
@@ -33,8 +22,8 @@ sentence-transformers
 #Environment variables
 python-dotenv
 
-#machne learning utils 
-scikit-learn
+# #machne learning utils 
+# scikit-learn
 numpy
 pandas
 
@@ -50,3 +39,6 @@ requests
 
 #Pypdf lib
 pypdf
+
+#To access Chroma vector stores you’ll need to install the langchain-chroma integration package.
+chromadb
