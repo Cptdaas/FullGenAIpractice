@@ -49,3 +49,47 @@ When I see you again (see you again, yeah, yeah)
 Oh (yeah), oh (yeah, yeah, oh-oh)
 Ooh (uh-huh, yup)
 When I see you again
+
+
+
+In this video, I explain how to correctly install Homebrew on macOS and fix the common error:
+Medium link: https://medium.com/@cpt1995daas/how-to-install-homebrew-on-macos-commd-not-found-brew-a13cf6257b5e
+
+“zsh: command not found: brew”.
+
+If you are coming from Windows (CMD / PowerShell), Homebrew can feel confusing at first.
+This video explains WHY macOS needs Homebrew, how it is different from Windows,
+and shows the complete installation and PATH fix step by step.
+
+Topics covered in this video:
+- Why Homebrew is required on macOS
+- Windows CMD vs macOS Terminal (core differences)
+- What zsh is and why commands fail
+- Common beginner mistakes while installing Homebrew
+- Correct Homebrew installation command
+- Fixing “brew installed but not found”
+- Adding Homebrew to PATH using zprofile
+- Final verification and best practices
+
+Commands used in this video:
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+source ~/.zprofile
+brew --version
+
+Who is this video for?
+- Beginners moving from Windows to macOS
+- Students, developers, and data scientists
+- Anyone facing Homebrew or terminal issues on Mac
+- People learning macOS development setup
+
+If this video helped you:
+👍 Like the video
+💬 Comment your issue or doubt
+🔔 Subscribe for more macOS, development, and AI content
+
+Thanks for watching!
+
+#macOS #Homebrew #Terminal #zsh #Developer #Programming #MacBook #WindowsVsMac

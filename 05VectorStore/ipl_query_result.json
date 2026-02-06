@@ -1,0 +1,38 @@
+{
+    "ids": [
+        [
+            "doc2",
+            "doc3"
+        ]
+    ],
+    "embeddings": null,
+    "documents": [
+        [
+            "Rohit Sharma is the most successful captain in IPL history, leading Mumbai Indians to five titles. He's known for his calm demeanor and ability to play big innings under pressure.",
+            "MS Dhoni, famously known as Captain Cool, has led Chennai Super Kings to multiple IPL titles. His finishing skills, wicketkeeping, and leadership are legendary."
+        ]
+    ],
+    "uris": null,
+    "included": [
+        "metadatas",
+        "documents",
+        "distances"
+    ],
+    "data": null,
+    "metadatas": [
+        [
+            {
+                "team": "Mumbai Indians"
+            },
+            {
+                "team": "Chennai Super Kings"
+            }
+        ]
+    ],
+    "distances": [
+        [
+            0.5389814376831055,
+            0.7823469638824463
+        ]
+    ]
+}
