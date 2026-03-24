@@ -42,3 +42,9 @@ pypdf
 
 #To access Chroma vector stores you’ll need to install the langchain-chroma integration package.
 chromadb
+
+#Faiss VectorDB
+faiss-cpu
+#wikipedia api
+wikipedia
+
